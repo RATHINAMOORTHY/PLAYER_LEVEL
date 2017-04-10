@@ -4,7 +4,7 @@ class factorial
   {
     int total=1;
     int a=Integer.valueOf(args[0]);
-    for(int i=a;i>=0;i--)
+    for(int i=a;i>0;i--)
     {
       total=total*i;
     }
