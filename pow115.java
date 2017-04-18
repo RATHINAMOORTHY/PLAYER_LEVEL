@@ -8,8 +8,8 @@ class pow115
     while(n!=0)
     {
       int i=n%10;
-      sum=sum+pow(i,i);
-      n/10;
+      sum=sum+(i*i);
+      n=n/10;
     }
     System.out.print(+sum);
   }
